@@ -1,4 +1,61 @@
 body {
     background-color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 100%; 
+    height: 700px; 
+    display: flex;           
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    background-color: rgb(148, 242, 228);
+    color: black;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    letter-spacing: 0.1rem;
+    font-style: bold;
+    font-weight: 700;
+}
+
+p {
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
+a {
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* tablet / mobile styling */
+@media only screen and (max-width: 1700px) {
     
+p {
+    font-size: 16px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
 }
