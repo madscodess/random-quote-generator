@@ -1,7 +1,3 @@
-# random-quote-generator
-
-This project uses an array to randomly pick items (quotes) from
-
 # Random Generator using HTML, CSS, and JavaScript
 This is a simple web application that generates random quotes from a small array of quotes (7 quotes in the array). It is built using HTML, CSS, and JavaScript.
 
