@@ -10,17 +10,22 @@ const quoteItems = [
 ];
 
 //Pick out HTML elements 
+const h1 = document.querySelector('h1');
 const button = document.querySelector('button');
-let quote = document.querySelector('p');
 
+//create new p element for quotes
+let quote = document.createElement("p");
 
 function newQuote () {
     updatedQuote = quoteItems[Math.floor(Math.random()*quoteItems.length)];
     quote.innerHTML = updatedQuote;
+    console.log(quote);
 };
 
 button.addEventListener('click', function() {
     newQuote();
 })
 
+//this puts the quote on the page below the h1 element 
+h1.appendChild(quote);
 
