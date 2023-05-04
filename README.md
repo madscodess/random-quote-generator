@@ -20,6 +20,4 @@ CSS: Defines the styles and layout of the web page.
 JavaScript: Provides the logic and interactivity of the web page.
 Credits
 
-This application was created by [Maddie].
-
-The quotes used in this application were created [sourced from here](https://www.growthengineering.co.uk/70-quotes-about-learning/#:~:text=Learning%20Quotes%3A%20The%20All%2DTime,Jiddu%20Krishnamurti)
+The quotes used in this application were [sourced from here](https://www.growthengineering.co.uk/70-quotes-about-learning/#:~:text=Learning%20Quotes%3A%20The%20All%2DTime,Jiddu%20Krishnamurti)
