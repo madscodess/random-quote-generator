@@ -1,7 +1,7 @@
 # Random Generator using HTML, CSS, and JavaScript
 This is a simple web application that generates random quotes from a small array of quotes (7 quotes in the array). It is built using HTML, CSS, and JavaScript.
 
-[Project live Preview is here](https://madscodess.github.io/random-quote-generator/)
+[Project live preview is here](https://madscodess.github.io/random-quote-generator/)
 # How to Use
 Clone or download the repository to your local machine.
 Open the index.html file in your web browser.
