@@ -19,7 +19,6 @@ let quote = document.createElement("p");
 function newQuote () {
     updatedQuote = quoteItems[Math.floor(Math.random()*quoteItems.length)];
     quote.innerHTML = updatedQuote;
-    console.log(quote);
 };
 
 button.addEventListener('click', function() {
