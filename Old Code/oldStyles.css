@@ -50,18 +50,6 @@ a {
     text-decoration: none;
 }
 
-#quote  {
-    padding: 0px;
-     display: none;
-    /* visibility: hidden; */ 
-}
-
-#authorName {
-    padding: 0px;
-    display: none;
-    /* visibility: hidden;
-} */}
-
 /* tablet / mobile styling */
 @media only screen and (max-width: 1700px) {
     

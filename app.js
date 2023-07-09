@@ -1,30 +1,22 @@
-//create an array with quotes
-const quoteItems = [
-    "The only thing we have to fear is fear itself. - Franklin D. Roosevelt", 
-    "There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning. — Jiddu Krishnamurti",
-    "One learns from books and example only that certain things can be done. Actual learning requires that you do those things. — Frank Herbert",
-    "Tell me and I forget, teach me and I may remember, involve me and I learn. — Benjamin Franklin",
-    "Spoon feeding in the long run teaches us nothing but the shape of the spoon. — E. M. Forster",
-    "The beautiful thing about learning is nobody can take it away from you. — B.B. King",
-    "If knowledge is power, then learning is a superpower. — Jim Kwik"
-];
 
 //Pick out HTML elements 
-const h1 = document.querySelector('h1');
 const button = document.querySelector('button');
+const quote = document.querySelector('#quote');
+const authorName = document.querySelector('#authorName');
 
-//create new p element for quotes
-let quote = document.createElement("p");
 
-function newQuote () {
-    updatedQuote = quoteItems[Math.floor(Math.random()*quoteItems.length)];
-    quote.innerHTML = updatedQuote;
-};
+//on click get quotes from API
+button.addEventListener('click', async function(e) {
+    e.preventDefault();
+    //get quotes from API
+    const res =  await axios.get('https://api.quotable.io/quotes/random');
 
-button.addEventListener('click', function() {
-    newQuote();
+    //create new p element and add the quote from API in there
+    quote.innerHTML = (` " ${res.data[0].content} " `);
+    quote.style.display = 'flex';
+
+     //update author name to be visible with API value
+    authorName.innerHTML = (`- ${res.data[0].author}`);
+    authorName.style.display = 'flex';
 })
-
-//this puts the quote on the page below the h1 element 
-h1.appendChild(quote);
 

@@ -1,5 +1,5 @@
 # Random Generator using HTML, CSS, and JavaScript
-Web application that generates quotes from an API, including the author and quote. It is built using HTML, CSS, and JavaScript.
+This is a simple web application that generates random quotes from a small array of quotes (7 quotes in the array). It is built using HTML, CSS, and JavaScript.
 
 [Project live preview is here](https://madscodess.github.io/random-quote-generator/)
 # How to Use
@@ -11,7 +11,7 @@ Repeat step 3 to generate additional quotes.
 # Features
 The following features are available in this application:
 
-Random Quote: Generates a random quote and author names from an API of quotes.
+Random Quote: Generates a random quote from a small array of quotes.
 
 # Technologies Used
 This application was built using the following technologies:
@@ -19,11 +19,6 @@ This application was built using the following technologies:
 HTML: Provides the structure and content of the web page.
 CSS: Defines the styles and layout of the web page.
 JavaScript: Provides the logic and interactivity of the web page.
+Credits
 
-
-# Credits
-
-API used was [sourced from here](https://github.com/lukePeavey/quotable)
-
-# Old Code (arrays)
-This code has been updated to include an API, it was previously created using a small array set. Files from this project are included in 'Old Code' folder.
+The quotes used in this application were [sourced from here](https://www.growthengineering.co.uk/70-quotes-about-learning/#:~:text=Learning%20Quotes%3A%20The%20All%2DTime,Jiddu%20Krishnamurti)
